@@ -6,6 +6,7 @@ from initial request through preprocessing, analysis, and report generation.
 """
 
 import uuid
+from typing import Dict
 from pathlib import Path
 from agent_configuration import legal_analysis_agent, checkpointer
 from approval_workflow import approval_handler
